@@ -11,5 +11,15 @@ datasources:
         password: ${JDBC_PASSWORD:""}
         driverClassName: ${JDBC_DRIVER:org.h2.Driver}
 
+jpa:
+    default:
+        packages-to-scan:
+            - 'cberry.dev'
+        properties:
+            hibernate:
+                hbm2ddl:
+                    auto: update
+                show_sql: true
+
 database:
     max: 50
