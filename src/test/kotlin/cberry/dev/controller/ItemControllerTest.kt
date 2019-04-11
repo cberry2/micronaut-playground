@@ -29,12 +29,12 @@
 //        client!!.toBlocking().exchange<Any, Any>(HttpRequest.GET("/Items/list?order=foo"))
 //    }
 //
-////    @Test
-////    fun testFindNonExistingItemReturns404() {
-////        thrown.expect(HttpClientResponseException::class.java)
-////        thrown.expect(hasProperty<Any>("response", hasProperty<Any>("status", `is`(HttpStatus.NOT_FOUND))))
-////        val response = client!!.toBlocking().exchange<Any, Any>(HttpRequest.GET("/Items/99"))
-////    }
+//    @Test
+//    fun testFindNonExistingItemReturns404() {
+//        thrown.expect(HttpClientResponseException::class.java)
+//        thrown.expect(hasProperty<Any>("response", hasProperty<Any>("status", `is`(HttpStatus.NOT_FOUND))))
+//        val response = client!!.toBlocking().exchange<Any, Any>(HttpRequest.GET("/Items/99"))
+//    }
 //
 //    protected fun entityId(response: HttpResponse<*>): Long? {
 //        val path = "/Items/"
