@@ -1,4 +1,4 @@
-package cberry.dev
+package cberry.dev.repo
 
 import javax.validation.constraints.NotBlank
 

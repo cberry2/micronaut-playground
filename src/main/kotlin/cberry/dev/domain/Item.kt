@@ -16,4 +16,4 @@ data class Item(
 
     @Column(name = "body")
     val body: String = ""
-)
+) : DomainEntity

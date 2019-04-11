@@ -1,4 +1,4 @@
-package cberry.dev
+package cberry.dev.config
 
 import javax.validation.constraints.NotNull
 

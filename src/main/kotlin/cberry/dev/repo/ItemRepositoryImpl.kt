@@ -1,4 +1,4 @@
-package cberry.dev
+package cberry.dev.repo
 
 import cberry.dev.domain.Item
 import io.micronaut.configuration.hibernate.jpa.scope.CurrentSession

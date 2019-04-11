@@ -1,4 +1,4 @@
-package cberry.dev
+package cberry.dev.repo
 
 import cberry.dev.domain.Item
 import java.util.*
