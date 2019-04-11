@@ -1,4 +1,4 @@
-package cberry.dev.entity
+package cberry.dev.domain
 
 import javax.persistence.*
 import javax.validation.constraints.NotNull
